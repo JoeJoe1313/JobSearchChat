@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 63;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -45,7 +45,7 @@
 		B13567C1725532078FD3BFD2 /* JobSearchChat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JobSearchChat.entitlements; sourceTree = "<group>"; };
 		C08D6B47F26191F168FF8F5F /* LMModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMModel.swift; sourceTree = "<group>"; };
 		D2750FDA05E9C187A5209FAD /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
-		D68529941153CFE171CD1F9A /* JobSearchChat.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = JobSearchChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D68529941153CFE171CD1F9A /* JobSearchChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobSearchChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7F0A752F81D0CB9935B6CA7 /* JobSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobSearchService.swift; sourceTree = "<group>"; };
 		EB965DB128C1ABCF7F76A158 /* ChatToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatToolbarView.swift; sourceTree = "<group>"; };
 		F1A84525B5969539CC1D90C3 /* GenerationInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerationInfoView.swift; sourceTree = "<group>"; };
@@ -218,7 +218,6 @@
 				96A3D7E1E71C3A76CE2F88DC /* XCRemoteSwiftPackageReference "mlx-swift-lm" */,
 				ABA790CEFF1032E4D63B1F26 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
 			);
-			preferredProjectObjectVersion = 77;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -274,6 +273,8 @@
 				CODE_SIGN_ENTITLEMENTS = JobSearchChat/JobSearchChat.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MHKLLWN2V4;
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
@@ -354,6 +355,8 @@
 				CODE_SIGN_ENTITLEMENTS = JobSearchChat/JobSearchChat.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MHKLLWN2V4;
+				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
