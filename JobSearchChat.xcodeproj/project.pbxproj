@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09122153269798F7A4D450C8 /* LMModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D6B47F26191F168FF8F5F /* LMModel.swift */; };
+		1A00059F6583770E56EFD4F7 /* MLXLLM in Frameworks */ = {isa = PBXBuildFile; productRef = 02B1A5E13987242F4060316F /* MLXLLM */; };
+		1B537486ECEB0D4B6AE07B42 /* HubApi+default.swift in Sources */ = {isa = PBXBuildFile; fileRef = F961D895CB797EEB0103B1AB /* HubApi+default.swift */; };
+		24E708DA6C4BC4DC91A7052D /* ConversationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BCEA01D5AF5128D5C94327 /* ConversationView.swift */; };
+		3B92E49EBA81FB25E67BD163 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D3EFCEC894EA63E7884DB3 /* ChatViewModel.swift */; };
+		3E9F62B6DC4342ADF40AF646 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2750FDA05E9C187A5209FAD /* MessageView.swift */; };
+		4694528B1C249CC631E18AE2 /* DownloadProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A1E06D8DC1A64361226318 /* DownloadProgressView.swift */; };
+		5064B8E112209A859C07600F /* JobSearchTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C95AA7C1AFC623687D4403C /* JobSearchTool.swift */; };
+		5A12C0D2777308911C907004 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064FCAD742BFA29A9F909DFB /* ErrorView.swift */; };
+		5C193B3423E554EAD87827B2 /* JobSearchChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6F2F99F0AE61E3600776EE /* JobSearchChatApp.swift */; };
+		6C42665918A0AD5D77A196AC /* GenerationInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A84525B5969539CC1D90C3 /* GenerationInfoView.swift */; };
+		7852DF296A810EB14610635B /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32ED559B51F9AF51A0DDE81F /* ChatView.swift */; };
+		8DB9E0BFB268F36755549087 /* MLXService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671E88774DA9D8AD16E65883 /* MLXService.swift */; };
+		907B56E28EE3D0069FD4C884 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1ECD828D10A9D14EAF4DB5 /* Message.swift */; };
+		92239BD79DE679DF3FD53E97 /* PromptField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED2040FC8D0FA9BB73FDFB6 /* PromptField.swift */; };
+		9986B87DF793239DF44F1B1A /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ED28B6EF93BE6B0A8703EA /* SampleData.swift */; };
+		9F9312C91CF9B05BC91967A4 /* JobSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F0A752F81D0CB9935B6CA7 /* JobSearchService.swift */; };
+		A57A036E01753C40D12B073C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33C6BD3E3204979B3FC464CA /* Assets.xcassets */; };
+		ABD68A70231B3B7184587B70 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 14C18E730B6D74F019089BB4 /* SwiftSoup */; };
+		AD0433D2C6FBF498056B18E1 /* MLXLMCommon in Frameworks */ = {isa = PBXBuildFile; productRef = 005AC1B7907176577F6CDDAB /* MLXLMCommon */; };
+		C8D437F9CFF93AA9CFDCDCC0 /* ChatToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB965DB128C1ABCF7F76A158 /* ChatToolbarView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		064FCAD742BFA29A9F909DFB /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		32A1E06D8DC1A64361226318 /* DownloadProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadProgressView.swift; sourceTree = "<group>"; };
+		32ED559B51F9AF51A0DDE81F /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		33C6BD3E3204979B3FC464CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38ED28B6EF93BE6B0A8703EA /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		5B6F2F99F0AE61E3600776EE /* JobSearchChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobSearchChatApp.swift; sourceTree = "<group>"; };
+		671E88774DA9D8AD16E65883 /* MLXService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLXService.swift; sourceTree = "<group>"; };
+		67BCEA01D5AF5128D5C94327 /* ConversationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationView.swift; sourceTree = "<group>"; };
+		6ED2040FC8D0FA9BB73FDFB6 /* PromptField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptField.swift; sourceTree = "<group>"; };
+		98D3EFCEC894EA63E7884DB3 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		9C95AA7C1AFC623687D4403C /* JobSearchTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobSearchTool.swift; sourceTree = "<group>"; };
+		B13567C1725532078FD3BFD2 /* JobSearchChat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JobSearchChat.entitlements; sourceTree = "<group>"; };
+		C08D6B47F26191F168FF8F5F /* LMModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMModel.swift; sourceTree = "<group>"; };
+		D2750FDA05E9C187A5209FAD /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		D68529941153CFE171CD1F9A /* JobSearchChat.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = JobSearchChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7F0A752F81D0CB9935B6CA7 /* JobSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobSearchService.swift; sourceTree = "<group>"; };
+		EB965DB128C1ABCF7F76A158 /* ChatToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatToolbarView.swift; sourceTree = "<group>"; };
+		F1A84525B5969539CC1D90C3 /* GenerationInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerationInfoView.swift; sourceTree = "<group>"; };
+		F961D895CB797EEB0103B1AB /* HubApi+default.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HubApi+default.swift"; sourceTree = "<group>"; };
+		FA1ECD828D10A9D14EAF4DB5 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		975C9BC00EE268A112B2BB4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A00059F6583770E56EFD4F7 /* MLXLLM in Frameworks */,
+				AD0433D2C6FBF498056B18E1 /* MLXLMCommon in Frameworks */,
+				ABD68A70231B3B7184587B70 /* SwiftSoup in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F086850BB7D8C2841E1DB54 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				67BCEA01D5AF5128D5C94327 /* ConversationView.swift */,
+				D2750FDA05E9C187A5209FAD /* MessageView.swift */,
+				6ED2040FC8D0FA9BB73FDFB6 /* PromptField.swift */,
+				4A412A0ED12FF88F9198B9AB /* Toolbar */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4A412A0ED12FF88F9198B9AB /* Toolbar */ = {
+			isa = PBXGroup;
+			children = (
+				EB965DB128C1ABCF7F76A158 /* ChatToolbarView.swift */,
+				32A1E06D8DC1A64361226318 /* DownloadProgressView.swift */,
+				064FCAD742BFA29A9F909DFB /* ErrorView.swift */,
+				F1A84525B5969539CC1D90C3 /* GenerationInfoView.swift */,
+			);
+			path = Toolbar;
+			sourceTree = "<group>";
+		};
+		63B26C0B4099D540DC98BE3A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				9C95AA7C1AFC623687D4403C /* JobSearchTool.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		63C19F8ED4095DBFB86DC874 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				33C6BD3E3204979B3FC464CA /* Assets.xcassets */,
+				F961D895CB797EEB0103B1AB /* HubApi+default.swift */,
+				38ED28B6EF93BE6B0A8703EA /* SampleData.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		716C889BF83C335ADB1E15E3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C08D6B47F26191F168FF8F5F /* LMModel.swift */,
+				FA1ECD828D10A9D14EAF4DB5 /* Message.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9B2CBEE5E9621F9CC5176A6A /* JobSearchChat */ = {
+			isa = PBXGroup;
+			children = (
+				32ED559B51F9AF51A0DDE81F /* ChatView.swift */,
+				B13567C1725532078FD3BFD2 /* JobSearchChat.entitlements */,
+				5B6F2F99F0AE61E3600776EE /* JobSearchChatApp.swift */,
+				716C889BF83C335ADB1E15E3 /* Models */,
+				A7B718E261769EF0782B0B29 /* Services */,
+				63C19F8ED4095DBFB86DC874 /* Support */,
+				63B26C0B4099D540DC98BE3A /* Tools */,
+				DDB0C4D9485A7D02BE775FB8 /* ViewModels */,
+				2F086850BB7D8C2841E1DB54 /* Views */,
+			);
+			path = JobSearchChat;
+			sourceTree = "<group>";
+		};
+		A7B718E261769EF0782B0B29 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E7F0A752F81D0CB9935B6CA7 /* JobSearchService.swift */,
+				671E88774DA9D8AD16E65883 /* MLXService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DDB0C4D9485A7D02BE775FB8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				98D3EFCEC894EA63E7884DB3 /* ChatViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FCFC1845ED13BB74B29D7D3E = {
+			isa = PBXGroup;
+			children = (
+				9B2CBEE5E9621F9CC5176A6A /* JobSearchChat */,
+				FEA27408B303B9CD96794183 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEA27408B303B9CD96794183 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D68529941153CFE171CD1F9A /* JobSearchChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA74D6EC3FAA37E9D22A32B9 /* JobSearchChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDCA6EAF804FDC452F66D690 /* Build configuration list for PBXNativeTarget "JobSearchChat" */;
+			buildPhases = (
+				E81754E39978340A8C9B83D8 /* Sources */,
+				727171E427A0FADFEE8D8EFF /* Resources */,
+				975C9BC00EE268A112B2BB4E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JobSearchChat;
+			packageProductDependencies = (
+				02B1A5E13987242F4060316F /* MLXLLM */,
+				005AC1B7907176577F6CDDAB /* MLXLMCommon */,
+				14C18E730B6D74F019089BB4 /* SwiftSoup */,
+			);
+			productName = JobSearchChat;
+			productReference = D68529941153CFE171CD1F9A /* JobSearchChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B048D005D0796201C31E7588 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EA74D6EC3FAA37E9D22A32B9 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E363B97729B10CE2E159551D /* Build configuration list for PBXProject "JobSearchChat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = FCFC1845ED13BB74B29D7D3E;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				96A3D7E1E71C3A76CE2F88DC /* XCRemoteSwiftPackageReference "mlx-swift-lm" */,
+				ABA790CEFF1032E4D63B1F26 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA74D6EC3FAA37E9D22A32B9 /* JobSearchChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		727171E427A0FADFEE8D8EFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57A036E01753C40D12B073C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E81754E39978340A8C9B83D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8D437F9CFF93AA9CFDCDCC0 /* ChatToolbarView.swift in Sources */,
+				7852DF296A810EB14610635B /* ChatView.swift in Sources */,
+				3B92E49EBA81FB25E67BD163 /* ChatViewModel.swift in Sources */,
+				24E708DA6C4BC4DC91A7052D /* ConversationView.swift in Sources */,
+				4694528B1C249CC631E18AE2 /* DownloadProgressView.swift in Sources */,
+				5A12C0D2777308911C907004 /* ErrorView.swift in Sources */,
+				6C42665918A0AD5D77A196AC /* GenerationInfoView.swift in Sources */,
+				1B537486ECEB0D4B6AE07B42 /* HubApi+default.swift in Sources */,
+				5C193B3423E554EAD87827B2 /* JobSearchChatApp.swift in Sources */,
+				9F9312C91CF9B05BC91967A4 /* JobSearchService.swift in Sources */,
+				5064B8E112209A859C07600F /* JobSearchTool.swift in Sources */,
+				09122153269798F7A4D450C8 /* LMModel.swift in Sources */,
+				8DB9E0BFB268F36755549087 /* MLXService.swift in Sources */,
+				907B56E28EE3D0069FD4C884 /* Message.swift in Sources */,
+				3E9F62B6DC4342ADF40AF646 /* MessageView.swift in Sources */,
+				92239BD79DE679DF3FD53E97 /* PromptField.swift in Sources */,
+				9986B87DF793239DF44F1B1A /* SampleData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6A9DC4E63F2979A912311C6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = JobSearchChat/JobSearchChat.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joejoe1313.JobSearchChat;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		984366BB4C889010E7FCE831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AC55EC97EAE593CD9D3B2384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = JobSearchChat/JobSearchChat.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joejoe1313.JobSearchChat;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BF8038ED5B6389E898EC1342 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDCA6EAF804FDC452F66D690 /* Build configuration list for PBXNativeTarget "JobSearchChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC55EC97EAE593CD9D3B2384 /* Debug */,
+				6A9DC4E63F2979A912311C6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E363B97729B10CE2E159551D /* Build configuration list for PBXProject "JobSearchChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF8038ED5B6389E898EC1342 /* Debug */,
+				984366BB4C889010E7FCE831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		96A3D7E1E71C3A76CE2F88DC /* XCRemoteSwiftPackageReference "mlx-swift-lm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ml-explore/mlx-swift-lm";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		ABA790CEFF1032E4D63B1F26 /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		005AC1B7907176577F6CDDAB /* MLXLMCommon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 96A3D7E1E71C3A76CE2F88DC /* XCRemoteSwiftPackageReference "mlx-swift-lm" */;
+			productName = MLXLMCommon;
+		};
+		02B1A5E13987242F4060316F /* MLXLLM */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 96A3D7E1E71C3A76CE2F88DC /* XCRemoteSwiftPackageReference "mlx-swift-lm" */;
+			productName = MLXLLM;
+		};
+		14C18E730B6D74F019089BB4 /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ABA790CEFF1032E4D63B1F26 /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B048D005D0796201C31E7588 /* Project object */;
+}
